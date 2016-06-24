@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+section {
+	margin: 0 auto;
+}
+div.title1 {
+	border: black solid 1px;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0;
+	font-size: .8em
+}
+
+div.title2 {
+	border: black solid 1px;
+	background-color: maroon;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0;
+	font-size: .8em
+}
+
+div.title3 {
+	border: black solid 1px;
+	background-color: green;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0;
+	font-size: .8em
+}
+
+@media (min-width: 992px) {
+	div {
+	background-color: gray;
+	border: 1px solid black;
+	padding-top: 20px;
+	position: relative;
+	display: inline-block;
+	font-size: 1.1em;
+	margin: 0 auto;
+	width: 30%;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+	div {
+	background-color: gray;
+	border: 1px solid black;
+	padding-top: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+	position: relative;
+	display: inline-block;
+	font-size: 1.1em;
+	margin: 1px;
+	width: 45%;
+}
+	#three {
+	background-color: gray;
+	border: 1px solid black;
+	padding-top: 20px;
+	position: relative;
+	display: inline-block;
+	font-size: 1.1em;
+	margin: 5px;
+	width: 91%;
+	}
+
+}
+
+@media (max-width: 767px) {
+	div {
+	background-color: gray;
+	border: 1px solid black;
+	padding-top: 20px;
+	position: relative;
+	display: inline-block;
+	font-size: 1.1em;
+	margin: 5px;
+	width: 70%;
+}
+
+	div.title1, div.title2, div.title3 {
+	position: absolute;
+	top: 0;
+	margin: 0 auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+	
+}
+}
